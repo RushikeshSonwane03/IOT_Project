@@ -26,11 +26,9 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 
 ## System Architecture
 
-### Architecture Diagram
-![System Architecture](images/system-architecture.png)
-
-### IOT Circuit Diagram
-![IOT_Circuit_Diagram](images/IOT-Circuit-Diagram.png)
+| ### Architecture Diagram | ### IOT Circuit Diagram |
+|------------------------------------------------------|-------------------------------------------------------|
+| ![System Architecture](images/system-architecture.png) | ![IOT_Circuit_Diagram](images/IOT-Circuit-Diagram.png) |
 
 --- 
 
@@ -100,17 +98,14 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 
 ## Results
 
-| Serial Monitor of Arduino IDE |
-|-----------------------------|
-| ![Serial Monitor](images/serial-monitor.png) |
+| Serial Monitor of Arduino IDE | ThingSpeak Cloud | 
+|-----------------------------|-----------------------------|  
+| ![Serial Monitor](images/serial-monitor.png) | ![ThingSpeak Cloud](images/thingspeak.png) |
 
 | Load Cell Graph | Gyroscope Graph |
 |-----------------------------|-----------------------------|
 | ![Load Cell Graph](images/loadcell.jpg) | ![Gyroscope Graph](images/gyroscope.jpg) |
 
-| ThingSpeak Cloud | 
-|-----------------------------|
-![ThingSpeak Cloud](images/thingspeak.png) |
 
 --- 
 
