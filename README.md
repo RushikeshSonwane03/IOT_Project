@@ -27,10 +27,10 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 ## System Architecture
 
 ### Architecture Diagram
-![System Architecture](images/system-architecture.png)
+![System Architecture](Images/system-architecture.png)
 
 ### IOT Circuit Diagram
-![IOT_Circuit_Diagram](images/IOT-Circuit-Diagram.png)
+![IOT_Circuit_Diagram](Images/IOT-Circuit-Diagram.png)
 
 --- 
 
@@ -87,7 +87,7 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 ## Implementation
 
 ### TimeLine
-![TimeLine](images/TimeLine.png)
+![TimeLine](Images/TimeLine.png)
 
 1. **Initialization**: Setting up the microcontroller (NodeMCU ESP8266), sensors (MPU6050 gyroscope and load cell), and connections.
 2. **Data Acquisition**: Sensors collect data on motion and exertion continuously.
@@ -101,22 +101,22 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 ## Results
 
 ### Serial Monitor of Arduino IDE
-![Serial Monitor](images/serial-monitor.png)
+![Serial Monitor](Images/serial-monitor.png)
 
 ### Serial Monitor Readings
-![Serial Monitor](images/serial-monitor-readings.jpg)
+![Serial Monitor](Images/serial-monitor-readings.jpg)
 
 ### Load Cell Graph
-![Load Cell Graph](images/loadcell.jpg)
+![Load Cell Graph](Images/loadcell.jpg)
 
 ### Gyroscope Graph
-![Gyroscope Graph](images/gyroscope.jpg)
+![Gyroscope Graph](Images/gyroscope.jpg)
 
 ### ThingSpeak Cloud
-![ThingSpeak Cloud](images/thingspeak.png)
+![ThingSpeak Cloud](Images/thingspeak.png)
 
 ### Dataset
-![Dataset](images/dataset.png)
+![Dataset](Images/dataset.png)
 
 --- 
 
