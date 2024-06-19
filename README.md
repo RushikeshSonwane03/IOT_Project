@@ -176,10 +176,10 @@ We extend our heartfelt thanks to our project guide, Dr. Makrand Shahade, and ou
 --- 
 
 ## Credits
-- Rushikesh Sonwane
-- Anushka Jain
-- Mansi Patil
-- Purva Chauhan
+- Rushikesh Sonwane - <a href="https://github.com/RushikeshSonwane03" target="_blank">GitHub Profile</a>
+- Anushka Jain - <a href="https://github.com/Anushka1502" target="_blank">GitHub Profile</a>
+- Mansi Patil - <a href="https://github.com/#" target="_blank">GitHub Profile</a>
+- Purva Chauhan - <a href="https://github.com/Purva2002" target="_blank">GitHub Profile</a>
 
 ---
 
