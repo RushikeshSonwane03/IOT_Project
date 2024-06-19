@@ -108,9 +108,9 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 |-----------------------------|-----------------------------|
 | ![Load Cell Graph](images/loadcell.jpg) | ![Gyroscope Graph](images/gyroscope.jpg) |
 
-| ThingSpeak Cloud | Dataset | 
-|-----------------------------|-----------------------------|
-![ThingSpeak Cloud](images/thingspeak.png) | ![Dataset](images/dataset.png) |
+| ThingSpeak Cloud | 
+|-----------------------------|
+![ThingSpeak Cloud](images/thingspeak.png) |
 
 --- 
 
