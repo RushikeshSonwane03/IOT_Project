@@ -27,10 +27,10 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 ## System Architecture
 
 ### Architecture Diagram
-![System Architecture](Images/system-architecture.png)
+![System Architecture](images/system-architecture.png)
 
 ### IOT Circuit Diagram
-![IOT_Circuit_Diagram](Images/IOT-Circuit-Diagram.png)
+![IOT_Circuit_Diagram](images/IOT-Circuit-Diagram.png)
 
 --- 
 
@@ -87,7 +87,7 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 ## Implementation
 
 ### TimeLine
-![TimeLine](Images/TimeLine.png)
+![TimeLine](images/TimeLine.png)
 
 1. **Initialization**: Setting up the microcontroller (NodeMCU ESP8266), sensors (MPU6050 gyroscope and load cell), and connections.
 2. **Data Acquisition**: Sensors collect data on motion and exertion continuously.
@@ -102,15 +102,15 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 
 | Serial Monitor of Arduino IDE | Serial Monitor Readings |
 |-----------------------------|-----------------------------|
-| ![Serial Monitor](Images/serial-monitor.png) | ![Serial Monitor](Images/serial-monitor-readings.jpg) |
+| ![Serial Monitor](images/serial-monitor.png) | ![Serial Monitor](images/serial-monitor-readings.jpg) |
 
 | Load Cell Graph | Gyroscope Graph |
 |-----------------------------|-----------------------------|
-| ![Load Cell Graph](Images/loadcell.jpg) | ![Gyroscope Graph](Images/gyroscope.jpg) |
+| ![Load Cell Graph](images/loadcell.jpg) | ![Gyroscope Graph](images/gyroscope.jpg) |
 
 | ThingSpeak Cloud | Dataset | 
 |-----------------------------|-----------------------------|
-![ThingSpeak Cloud](Images/thingspeak.png) | ![Dataset](Images/dataset.png) |
+![ThingSpeak Cloud](images/thingspeak.png) | ![Dataset](images/dataset.png) |
 
 --- 
 
@@ -118,23 +118,23 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 
 | 1 User Data Input            |
 |-----------------------------|
-| ![1-User-Data-Input](Screenshots/1-User-Data-Input.png) |
+| ![1-User-Data-Input](images/1-User-Data-Input.png) |
 
 | 2 ThinkSpeak Cloud Connection Alert                | 
 |-----------------------------|
-| ![2-ThinkSpeak-Cloud-Connection-Alert](Screenshots/2-ThinkSpeak-Cloud-Connection-Alert.png) |
+| ![2-ThinkSpeak-Cloud-Connection-Alert](images/2-ThinkSpeak-Cloud-Connection-Alert.png) |
 
 | 3 Realtime Data from Cloud | 
 |-----------------------------|
-| ![3 Realtime Data from Cloud](Screenshots/3-Realtime-Data-from-Cloud.png) |
+| ![3 Realtime Data from Cloud](images/3-Realtime-Data-from-Cloud.png) |
 
 | 4 Output Indication   |
 |-----------------------------|
-| ![4 Output Indication](Screenshots/4-Output-Indication.png) |
+| ![4 Output Indication](images/4-Output-Indication.png) |
 
 | 5 Prediction Output |
 |-----------------------------|
-| ![5 Prediction Output](Screenshots/5-Prediction-Output.png) |
+| ![5 Prediction Output](images/5-Prediction-Output.png) |
 
 --- 
 
