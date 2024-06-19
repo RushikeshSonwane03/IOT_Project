@@ -1,0 +1,109 @@
+
+<!-- index.html -->
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+<body>
+    {% comment %} <script>alert("ThingSpeak connected Successfully")</script> {% endcomment %}
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="#">Hello {{name}}</a></li>
+            
+        </ul>
+    </nav>
+
+    <h1>Input Features for the Prediction are</h1>
+    <ul>
+        <li>BMI : {{BMI}}</li>
+        <li>Mass : {{mass}}</li>
+        <li>Acceleration : {{acceleration}}</li>      
+        <li>Applied Force : {{force}}</li>        
+    </ul>
+
+
+    <div class="container">
+        <h1>Predictions by</h1>
+    <form method="POST" action="">
+        <table>
+            {% csrf_token %}
+            {% comment %} <tr>
+                <div class="form-group">
+                    <td><label for="name">Linear Regression :</label></td>
+                    <td><label for="name">{{ans1}} N</label></td>
+                </div>
+            </tr>
+            <tr>
+                <div class="form-group">
+                    <td><label for="name">Decision Tree :</label></td>
+                    <td><label for="name">{{ans2}} N</label></td>
+                </div>
+            </tr> {% endcomment %}
+            <tr>
+                <div class="form-group">
+                    <td><label for="name">Random Forest :</label></td>
+                    <td><label for="name">{{ans3}} N</label></td>
+                </div>
+            </tr>
+            {% comment %} <tr>
+                <div class="form-group">
+                    <td><label for="name">S V M :</label></td>
+                    <td><label for="name">{{ans4}} N</label></td>
+                </div>
+            </tr>
+            <tr>
+                <div class="form-group">
+                    <td><label for="name">K N N :</label></td>
+                    <td><label for="name">{{ans5}} N</label></td>
+                </div>
+            </tr> {% endcomment %}
+            <tr>
+                <td colspan = 2><button type="submit">Next</button></td>
+            </tr>
+        
+        </table>
+    </form>
+
+    <h1>{{condition1}} - {{condition2}} - {{condition3}}</h1>
+
+<table >
+<tr>
+    <td>    
+    {% if condition1 == 1 %} 
+        Less Force Applied
+    {% elif condition2 == 2 %} 
+        Ideal Force Applied
+    {% elif condition3 == 3 %} 
+        Over Force Applied
+    {% endif %}
+    </td>
+    <td>
+        Difference = {{diff}}
+    </td>    
+</tr>
+</table>
+
+{% if condition1 == 1 %} 
+    <script>alert("Less Force Applied")</script>
+{% elif condition2 == 2 %} 
+    <script>alert("Ideal Force Applied")</script>
+{% elif condition3 == 3 %} 
+    <script>alert("Over Force Applied")</script>    
+{% endif %}
+
+
+</div>
+
+</body>
+</html>

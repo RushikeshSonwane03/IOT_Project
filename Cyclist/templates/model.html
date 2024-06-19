@@ -1,0 +1,84 @@
+
+<!-- index.html -->
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+<body>
+    <script>alert("ThingSpeak connected Successfully")</script>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="#">Hello {{name}}</a></li>
+            
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <h1>User Details</h1>
+        <table>
+            <tr>
+            <div class="form-group">
+                <td><label for="name">Name:</label></td>
+                <td><label for="name">{{name}}</label></td>
+            </div>
+            </tr>
+            <tr>
+            <div class="form-group">
+                <td><label for="BMI">BMI</label></td>
+                <td><label for="BMI">{{BMI}}</label></td>
+            </div>
+            </tr>
+            <tr>
+            <div class="form-group">
+                <td><label for="Mass">Mass</label></td>
+                <td><label for="mass">{{mass}}</label></td>
+            </div>
+            </tr>
+            <tr>
+                {% comment %} <td colspan = 2><button type="submit">Store value</button></td> {% endcomment %}
+            </tr>
+        
+        </table>
+    </form>
+</div>
+<div class="container">
+    <h1>Real Time Sensor Data</h1>
+    <form method="POST" action="{% url 'prediction' %}">
+        <table>
+                {% csrf_token %}
+            <tr>
+                <div class="form-group">
+                    <th><label for="force_label">Applied Force:</label> </th>
+                    <th><label for="acceleration_label">Acceleration Gained:</label></th>
+                </div>
+            </tr>
+            {% for entry in entries %}    
+            <tr>
+                <div class="form-group">
+                    <td><input type="text" id="force" name="force" value={{ entry.field1 }}></td>
+                    <td><input type="text" id="acceleration" name="acceleration" value={{ entry.field2 }}></td>
+                </div>
+            </tr>
+            {% endfor %}
+                
+            <tr>
+                <td colspan = 2><button type="submit">Predict Force</button></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+
+</body>
+</html>
