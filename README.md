@@ -100,9 +100,9 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 
 ## Results
 
-| Serial Monitor of Arduino IDE | Serial Monitor Readings |
-|-----------------------------|-----------------------------|
-| ![Serial Monitor](images/serial-monitor.png) | ![Serial Monitor](images/serial-monitor-readings.jpg) |
+| Serial Monitor of Arduino IDE |
+|-----------------------------|
+| ![Serial Monitor](images/serial-monitor.png) |
 
 | Load Cell Graph | Gyroscope Graph |
 |-----------------------------|-----------------------------|
