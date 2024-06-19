@@ -100,23 +100,17 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 
 ## Results
 
-### Serial Monitor of Arduino IDE
-![Serial Monitor](Images/serial-monitor.png)
+| Serial Monitor of Arduino IDE | Serial Monitor Readings |
+|-----------------------------|-----------------------------|
+| ![Serial Monitor](Images/serial-monitor.png) | ![Serial Monitor](Images/serial-monitor-readings.jpg) |
 
-### Serial Monitor Readings
-![Serial Monitor](Images/serial-monitor-readings.jpg)
+| Load Cell Graph | Gyroscope Graph |
+|-----------------------------|-----------------------------|
+| ![Load Cell Graph](Images/loadcell.jpg) | ![Gyroscope Graph](Images/gyroscope.jpg) |
 
-### Load Cell Graph
-![Load Cell Graph](Images/loadcell.jpg)
-
-### Gyroscope Graph
-![Gyroscope Graph](Images/gyroscope.jpg)
-
-### ThingSpeak Cloud
-![ThingSpeak Cloud](Images/thingspeak.png)
-
-### Dataset
-![Dataset](Images/dataset.png)
+| ThingSpeak Cloud | Dataset | 
+|-----------------------------|-----------------------------|
+![ThingSpeak Cloud](Images/thingspeak.png) | ![Dataset](Images/dataset.png) |
 
 --- 
 
