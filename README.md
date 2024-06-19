@@ -116,21 +116,14 @@ Cycling is a popular fitness activity, and optimizing performance can significan
 
 ## Screenshots
 
-| 1 User Data Input            |
-|-----------------------------|
-| ![1-User-Data-Input](images/1-User-Data-Input.png) |
+| 1 User Data Input            | 2 ThinkSpeak Cloud Connection Alert |
+|-----------------------------|-----------------------------|
+| ![1-User-Data-Input](images/1-User-Data-Input.png) | ![2-ThinkSpeak-Cloud-Connection-Alert](images/2-ThinkSpeak-Cloud-Connection-Alert.png) |
 
-| 2 ThinkSpeak Cloud Connection Alert                | 
-|-----------------------------|
-| ![2-ThinkSpeak-Cloud-Connection-Alert](images/2-ThinkSpeak-Cloud-Connection-Alert.png) |
 
-| 3 Realtime Data from Cloud | 
-|-----------------------------|
-| ![3 Realtime Data from Cloud](images/3-Realtime-Data-from-Cloud.png) |
-
-| 4 Output Indication   |
-|-----------------------------|
-| ![4 Output Indication](images/4-Output-Indication.png) |
+| 3 Realtime Data from Cloud | 4 Output Indication   |
+|-----------------------------|-----------------------------|
+| ![3 Realtime Data from Cloud](images/3-Realtime-Data-from-Cloud.png) | ![4 Output Indication](images/4-Output-Indication.png) |
 
 | 5 Prediction Output |
 |-----------------------------|
